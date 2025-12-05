@@ -1,0 +1,13 @@
+# offline_chatbot/requirements.txt
+# Symbolic computation library
+sympy
+
+# NLP/LLM libraries for parsing
+# Using a lightweight transformer for offline classification/parsing
+torch
+transformers
+accelerate
+sentence-transformers # Use for a simple offline embedding/classifier if needed
+
+# Optional but recommended for final presentation/clean execution
+# ipython
